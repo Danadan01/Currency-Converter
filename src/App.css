@@ -1,0 +1,24 @@
+.convert-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.convert-container .convert-from {
+  display: flex;
+  flex-direction: column;
+}
+.convert-container .convert-to {
+  display: flex;
+  flex-direction: column;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+}
+form .error {
+  color: red;
+  min-height: 25px;
+}/*# sourceMappingURL=App.css.map */
